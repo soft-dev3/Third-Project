@@ -45,4 +45,21 @@ background-image: linear-gradient(to right, rgb(223, 148, 9) 0%, rgb(255, 166, 0
 .catagories img{
     width: 100px;
 }
-
+.card{
+ border: none;
+ border-radius: 10px;
+ box-shadow: 5px 5px 15px lightgray;
+}
+.card-footer{
+    background-color:white;
+    border-top: none;
+}
+#subscrib{
+    height: 300px;
+}
+#subscrib h6{
+    color: gray;
+}
+footer{
+    text-align: center;
+}
