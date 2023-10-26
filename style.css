@@ -1,12 +1,15 @@
 .container{
     margin-bottom:80px ;
 }
+.carousel-width{
+    width: 1200px;
+}
 .carousel-bg-color{
     background-color: #fceae8;
     border-radius: 10px;
 }
 .carousel-item{
-    padding: 20px 20px;
+    padding: 20px 30px;
 }
 .item-price{
     color: #FF136f;
@@ -18,5 +21,28 @@
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
+}
+.catagories h1{
+    color: white;
+  
+}
+.catagories1,.catagories2,.catagories3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.catagories1{
+background-color: orange;
+background-image: linear-gradient(to right, rgb(223, 148, 9) 0%, rgb(255, 166, 0) 100%);
+}
+.catagories2{
+    background-color: orchid;
+    background-image: linear-gradient(to right, rgba(209, 104, 206, 0.808) 0%, rgb(235, 125, 231) 100%)
+}
+.catagories3{
+    background-color: blue;
+    background-image: linear-gradient(to right,rgba(6, 6, 206, 0.836) 0%, rgb(44, 44, 245) 100%)
+}
+.catagories img{
+    width: 100px;
 }
 
